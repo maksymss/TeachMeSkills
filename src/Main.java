@@ -5,12 +5,27 @@ public class Main {
     //Initialized main method!
     public static void main(String[] args) {
         //Printed "Hello World!" string to the console
-        System.out.println("Hello World!");
-        Scanner userInput = new Scanner(System.in);
-        System.out.println("Enter username");
+        //System.out.println("Hello World!");
+        //Scanner userInput = new Scanner(System.in);
+        //System.out.println("Enter username");
 
-        String userName = userInput.nextLine();
-        System.out.println("Username is: " + userName);
+        //String userName = userInput.nextLine();
+        //System.out.println("Username is: " + userName);
+
+        System.out.println("    |    |    ");
+        System.out.println("____|____|____");
+        System.out.println("    |    |    ");
+        System.out.println("____|____|____");
+        System.out.println("    |    |    ");
+        System.out.println("    |    |    ");
+
+        System.out.println("Christmas tree");
+
+        System.out.println("    *    ");
+        System.out.println("   ***   ");
+        System.out.println("  *****  ");
+        System.out.println(" ******* ");
+        System.out.println("*********");
 
     }
 }
