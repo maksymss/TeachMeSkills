@@ -38,7 +38,7 @@ public class Main {
         System.out.println();
 
         System.out.println("What's your weight?");
-        int weight = scanner.nextInt();
+        double weight = scanner.nextDouble();
         System.out.println("My weight is " + weight + " kg");
         System.out.println();
 
@@ -56,7 +56,7 @@ public class Main {
 
         public static void calculateBMI() {
         double myWeight = 72;
-        double myHeight = 1.75 * 1.75;
+        double myHeight = (175 * 175)* 10000;
         double myBMI = myWeight / myHeight;
 
         System.out.println("According to formula, my BMI (Body Mass Index) is " + myBMI);
