@@ -10,7 +10,7 @@ public class Main {
 
         //getScannerInput();
         //getAsciiValue();
-        //calculateBMI();
+        calculateBMI();
 
     }
     public static void getScannerInput() {
@@ -56,7 +56,7 @@ public class Main {
 
         public static void calculateBMI() {
         double myWeight = 72;
-        double myHeight = (175 * 175)* 10000;
+        double myHeight = (175 * 175) /10000;
         double myBMI = myWeight / myHeight;
 
         System.out.println("According to formula, my BMI (Body Mass Index) is " + myBMI);
