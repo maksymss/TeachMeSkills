@@ -6,6 +6,8 @@ import java.util.Scanner;
 public class Main2 {
     public static void main(String[] args) {
 
+        //Methods
+
         //isValueIn();
         //compareTwoArrays();
         //createRandomArray();
@@ -13,7 +15,7 @@ public class Main2 {
 
 
     }
-
+    //task #0
     public static void isValueIn() {
 
         int[] array = new int[]{65, 39, 1, 45, 8, 95, 4};
