@@ -6,7 +6,6 @@ public class HDD {
     private String size;
     private String type;
 
-
     public HDD() {
     name = "default";
     size = "default";
