@@ -14,6 +14,10 @@ public class StringMethods {
     getStringBuilder();
     System.out.println();
     isContainsABC("5553-abc-7593-xyz-1e3u");
+    System.out.println();
+    getShortestAndLongestWord("Archil is best Java teach I've ever had");
+    System.out.println();
+    getHello("Hello");
 
     }
 
@@ -67,7 +71,41 @@ public class StringMethods {
     }
 
     //Additional tasks
+    //task#
+    public static void getShortestAndLongestWord(String phrase) {
+    String shortestWord = "";
+    String longestWord = "";
+    int shortestWordLength = 0;
+    int longestWordLength = 100;
+    String[] phraseOfWords = phrase.split(" ");
+    for(String str: phraseOfWords) {
+        if(phrase.length() > longestWordLength){
+            longestWord = phrase;
+            longestWordLength = phrase.length();
+        } else if(phrase.length() < shortestWordLength){
+            shortestWord = phrase;
+            shortestWordLength = phrase.length();
+        }
+    }
+        System.out.println("The shortest word is: " + shortestWord);
+        System.out.println("The longest word is: " + longestWord);
+    }
 
-}
+    //task#5
+    public static void getHello(String str){
+        String result = str.replaceAll("Hello", "HHeelllloo");
+        System.out.println(result);
+        }
+
+
+
+    }
+
+
+
+
+
+
+
 
 
